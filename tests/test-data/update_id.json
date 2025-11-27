@@ -1,0 +1,10 @@
+{
+    "firstname": "Pugal",
+    "lastname": "Roshan",
+    "totalprice": 200,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-03-01",
+        "checkout": "2024-05-03"
+    }
+}
