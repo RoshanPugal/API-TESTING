@@ -25,7 +25,7 @@ test("Basic Auth using Get method with user& pass",async({request})=>{
 
 test("Bearer Token using get Method",async({request})=>{
 
-    const Bearertoken = ''
+    const Bearertoken = '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'
     const bearerequest = await request.get('https://github.com/user',{headers:{Authorization:`Bearer ${Bearertoken}`}})
 
     expect(bearerequest.ok()).toBeTruthy()
@@ -37,7 +37,7 @@ test("Bearer Token using get Method",async({request})=>{
 
 test.only("Api key Auth using get method",async({request})=>{
 
-    const apikey = ''
+    const apikey = '029e9a59ffe25681436a1576e456b9c4'
     const keyrequest = await request.get('https://openweathermap.org/price',{params:{appid:`${apikey}`}})
 
     // const keyresponse = await keyrequest.json()
