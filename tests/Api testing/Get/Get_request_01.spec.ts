@@ -13,7 +13,7 @@ test("Verify the Get Request for path params",async({request})=>{
     expect(response.status()).toBe(200)   
 })
 
-test.only("Verify the Get Request for Query Params",async({request})=>{
+test("Verify the Get Request for Query Params",async({request})=>{
 
     const firstname = "Jane"
     const lastname = "Doe"
