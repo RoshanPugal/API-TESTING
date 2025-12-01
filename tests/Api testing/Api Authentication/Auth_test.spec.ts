@@ -35,7 +35,7 @@ test("Bearer Token using get Method",async({request})=>{
 
 //Api Key Auth
 
-test.only("Api key Auth using get method",async({request})=>{
+test("Api key Auth using get method",async({request})=>{
 
     const apikey = '029e9a59ffe25681436a1576e456b9c4'
     const keyrequest = await request.get('https://openweathermap.org/price',{params:{appid:`${apikey}`}})
